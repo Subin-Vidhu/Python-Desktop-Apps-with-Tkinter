@@ -6,4 +6,5 @@ root = Tk()
 root.withdraw()
 
 #show a message box
-messagebox.showinfo("Hello", "Hello World")
+messagebox.showinfo("Messagebox", "Hello World")
+messagebox.showwarning("Messagebox", "Hello World")
