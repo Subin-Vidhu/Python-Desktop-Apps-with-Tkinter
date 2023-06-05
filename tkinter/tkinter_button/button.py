@@ -1,5 +1,12 @@
 #!/usr/bin/python3
 
+# A button can be created with the function call tkinter.Button(). 
+
+# You can then set the window, text, callback function, width, height and the state.
+
+# tkinter.Button(root, text = "Quit", command=quit, width=50, height=5)
+
+# It can be placed with the method .place(x,y)
 import tkinter
 
 def hello():
