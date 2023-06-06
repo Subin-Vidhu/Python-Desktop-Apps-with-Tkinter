@@ -8,7 +8,7 @@ if __name__ == "__main__":
     root.title("Tkinter")
     root.geometry("500x400")
 
-    var1 = tkinter.IntVar(value=1)
+    var1 = tkinter.IntVar(value=1) #default value is 1, so the first check box is checked.
     var2 = tkinter.IntVar()
     var3 = tkinter.IntVar()
     var4 = tkinter.IntVar(value=1)
