@@ -5,7 +5,7 @@ root = Tk()
 root.geometry("640x480")
 root.title("Tkinter Window Title")
 
-PIL_image = Image.open("1234.jpg")
+PIL_image = Image.open("fish.jpg")
 render = ImageTk.PhotoImage(PIL_image)
 img = Label(root, image=render)
 img.place(x=0,y=0) 
