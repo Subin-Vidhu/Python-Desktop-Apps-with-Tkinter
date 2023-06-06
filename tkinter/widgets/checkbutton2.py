@@ -12,10 +12,12 @@ if __name__ == "__main__":
     var2 = tkinter.IntVar()
     var3 = tkinter.IntVar()
     var4 = tkinter.IntVar(value=1)
+    var5 = tkinter.IntVar(value=1)
 
     Checkbutton(root, text="Python", variable=var1, width=50, height=3).grid(row=0, sticky=W)
     Checkbutton(root, text="Ruby", variable=var2, width=50, height=3).grid(row=1, sticky=W)
     Checkbutton(root, text="C++", variable=var3, width=50, height=3).grid(row=2, sticky=W)
     Checkbutton(root, text="C#", variable=var4, width=50, height=3).grid(row=3, sticky=W)
+    Checkbutton(root, text="Javascript", variable=var5, width=50, height=3,state=DISABLED).grid(row=4, sticky=W) #state=DISABLED makes the check box unclickable.
     
     root.mainloop()
