@@ -12,7 +12,7 @@ if __name__ == "__main__":
     root.geometry("300x300")
 
     var = DoubleVar()
-    scale = Scale( root, variable = var )
+    scale = Scale( root, variable = var ) 
     scale.pack(anchor=CENTER)
 
     button = Button(root, text="How much", command=func)
