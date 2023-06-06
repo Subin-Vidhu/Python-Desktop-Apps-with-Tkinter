@@ -18,7 +18,7 @@ class Demo1:
 
     def play(self):
         print('playing audio')    
-        playsound('Song.wav')
+        playsound('door.mp3')
 
 def main(): 
     root = Tk()
