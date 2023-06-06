@@ -17,6 +17,7 @@ if __name__ == "__main__":
     Lb1.insert(4, "PHP")
     Lb1.insert(5, "JSP")
 
+    Lb1.bind('<<ListboxSelect>>', lambda event: print(Lb1.curselection()))
     Lb1.grid(row=0, column=2, pady = 2)
     Lb1.grid(row=1, column=2, pady = 2)
     Lb1.grid(row=2, column=2, pady = 2)
