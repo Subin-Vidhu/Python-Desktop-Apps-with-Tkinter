@@ -28,3 +28,9 @@ A grid is an NxM field, like a chess board
 All widgets have the .grid(row, column) function
 
 You can set the positions,  btn.grid(row=0, column=0) would put it at (0,0) in the grid.
+
+To make a grid resizeable, use .grid_columnconfigure(x,weight=1) and .grid_rowconfigure(y,weight=1) for each cell
+
+You can use a for loop to create a grid
+
+Make a cell resize with the window by adding sticky='NSEW'
