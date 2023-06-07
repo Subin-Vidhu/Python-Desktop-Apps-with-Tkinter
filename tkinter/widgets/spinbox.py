@@ -4,7 +4,12 @@ import tkinter
 from tkinter import *
 
 def func():
-    print(wb.get())
+    # print(wb.get())
+    value = int(wb.get())
+    if value < 0 or value > 100:
+        print("Value not in range")
+    else:
+        print(value)
 
 if __name__ == "__main__":
     root = tkinter.Tk()
